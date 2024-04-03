@@ -25,7 +25,7 @@ To run the weather website locally, follow these steps:
 2. Navigate to the project directory:
 cd WEB_TECHNOLOGY
 
-3. Open the `index.html` file in your web browser.
+3. Open the `weather.html` file in your web browser.
 
 ## Usage
 

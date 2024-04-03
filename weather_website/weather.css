@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Truculenta", sans-serif;
+    background-image: url(./images/img.jpg),linear-gradient(#eb01a5, #d13531);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main{
+    width: 40%;
+    height: 100vh;
+    /* background-color: red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+div{
+    background-color: rgb(212, 193, 209);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 1rem;
+}
+#cont{
+    background-image: url(./images/weather.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
+}
+div>input{
+    font-size: 1rem;
+    color:rgb(41, 21, 59);
+    padding:1rem;
+    background-color:lightblue;
+    border-radius: 5px;
+    border: 2px rgb(65, 21, 57) solid;
+    font-weight: 700;
+
+}
+::placeholder{
+    color: rgb(8, 30, 86);
+}
+div>button{
+    padding: 1rem;
+    margin-left: 0.5rem;
+    font-size:1rem ;
+    background-color: grey;
+    border-radius: 5px;
+    border: 2px solid rgb(23, 16, 35);
+}
+
+.fa-magnifying-glass{
+    background-color: grey;
+    margin: 0;
+}
